@@ -9,25 +9,43 @@
 <body>
     <div class="container">
         <form action="">
-            <div>
+            <div class="input-group">
                 <label for="">Income</label>
                 <input type="number" min="0" placeholder="Income">
             </div>
-            <div>
+            <div class="input-group">
                 <label for="">Saving goal</label>
                 <input type="number" min="0" placeholder="Saving goal">
             </div>
-            <div>
+            <fieldset>
+                <legend>Expenses</legend>
+                <div class="input-group">
+                    <label for="name">Rent:</label>
+                    <input type="number" min="0" placeholder="Rent">
+                </div>
+                <div>
+                    <label for="name">Gorcerises:</label>
+                    <input type="number" min="0" placeholder="Gorcerises">
+                </div>
+                <div>
+                    <label for="name">Utilities:</label>
+                    <input type="number" min="0" placeholder="Utilities">
+                </div>
+            </fieldset>
+            <div class="input-group">
                 <label for="">What is 20% of your income?</label>
                 <input type="number" min="0" placeholder="Question you have to solve">
             </div>
-            <div>
+            <div class="input-group">
                 <label for="">Total expenses</label>
                 <input type="number" min="0" placeholder="Total expenses">
             </div>
-            <div>
+            <div class="input-group">
                 <label for="">Remaining income</label>
                 <input type="number" min="0" placeholder="Remaining income">
+            </div>  
+            <div class="submit-button">
+                <input type="submit" value="Submit">
             </div>  
         </form>
     </div>
